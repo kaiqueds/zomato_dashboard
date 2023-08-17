@@ -105,8 +105,8 @@ def rename_columns(dataframe):
 #-------------------------------------------EXTRACT--------------------------------------------------------
 #==========================================================================================================
 
-path_file = 'C:/Users/EngKa/Documents/repos/pa_ftc/train.csv'
-df = pd.read_csv(path_file)
+# path_file = 'C:/Users/EngKa/Documents/repos/pa_ftc/train.csv'
+df = pd.read_csv('train.csv')
 df1 = df.copy()
 
 #==========================================================================================================
